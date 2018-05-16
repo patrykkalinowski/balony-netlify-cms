@@ -10,14 +10,14 @@ collections: # A list of collections the CMS should be able to edit
     folder: "site/content/pilot" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-      - {label: "Imię i nazwisko", name: "name", widget: "string"}
-      - {label: "Kraj", name: "country", widget: "string"}
-      - {label: "Klub", name: "club", widget: "string"}
-      - {label: "Balon", name: "balloon_name", widget: "string"}
-      - {label: "Rejestracja balonu", name: "balloon_registration", widget: "string"}
-      - {label: "Zdjęcie pilota", name: "pilot_photo", widget: "image"}
+      - {label: "Imię i nazwisko", name: "name", widget: "string", required: false}
+      - {label: "Kraj", name: "country", widget: "string", required: false}
+      - {label: "Klub", name: "club", widget: "string", required: false}
+      - {label: "Balon", name: "balloon_name", widget: "string", required: false}
+      - {label: "Rejestracja balonu", name: "balloon_registration", widget: "string", required: false}
+      - {label: "Zdjęcie pilota", name: "pilot_photo", widget: "image", required: false}
       - {label: "Zdjęcie balonu", name: "balloon_photo", widget: "image", required: false}
-      - {label: "Opis", name: "description", widget: "markdown"}
+      - {label: "Opis", name: "description", widget: "markdown", required: false}
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Post" # Used in the UI, ie.: "New Post"
     folder: "site/content/post" # The path to the folder where the documents are stored
