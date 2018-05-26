@@ -5,39 +5,36 @@ media_folder: "site/static/img" # Folder where user uploaded files should go
 public_folder: "img"
 
 collections: # A list of collections the CMS should be able to edit
-  - name: "pilot" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Pilot" # Used in the UI, ie.: "New Post"
-    folder: "site/content/pilot" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
-      - {label: "Imię i nazwisko", name: "name", widget: "string", required: false}
-      - {label: "Kraj", name: "country", widget: "string", required: false}
-      - {label: "Klub", name: "club", widget: "string", required: false}
-      - {label: "Balon", name: "balloon_name", widget: "string", required: false}
-      - {label: "Rejestracja balonu", name: "balloon_registration", widget: "string", required: false}
-      - {label: "Zdjęcie pilota", name: "pilot_photo", widget: "image", required: false}
-      - {label: "Zdjęcie balonu", name: "balloon_photo", widget: "image", required: false}
-      - {label: "Opis", name: "description", widget: "markdown", required: false}
-  - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Post" # Used in the UI, ie.: "New Post"
-    folder: "site/content/post" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Intro Blurb", name: "description", widget: "text"}
-      - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
   - name: "pages"
-    label: "Pages"
+    label: "Podstrony"
     files:
       - file: "site/content/_index.md"
-        label: "Home Page"
+        label: "Strona główna"
         name: "home"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
-          - {label: Image, name: image, widget: image}
+          - {label: Zdjęcie w nagłówku, name: image, widget: image}
+          - {label: Tytuł, name: title, widget: string}
+          - {label: Podtytuł, name: subtitle, widget: string}
+          - {label: "Tło tytułu",
+              name: "title-background",
+              widget: "select",
+              options:
+                [{ label: "Niebieski", value: "blue" },
+                { label: "Żółty", value: "yellow" },
+                { label: "Zielony", value: "green" }]
+              }
+          - label: Treści
+            name: content_entries
+            widget: list
+            fields:
+              - label: Lewa kolumna
+                name: left_column
+                widget: text
+              - label: Prawa kolumna
+                name: right_column
+                widget: text
+              - {label: Zdjęcie w nagłówku, name: image, widget: image}
+              - {label: Tytuł, name: title, widget: string}
           - {label: "Blurb", name: blurb, widget: object, fields: [
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: "text"}]}
@@ -51,8 +48,8 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: "text"}]}
       - file: "site/content/contact/_index.md"
-        label: "Contact Page"
-        name: "contact"
+        label: "Kontakt"
+        name: "kontakt"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Logo, name: logo, widget: image}
@@ -93,3 +90,25 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Heading, name: heading, widget: string}
               - {label: Text, name: text, widget: text}
               - {label: Image, name: imageUrl, widget: image}
+  - name: "pilot" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Piloci" # Used in the UI, ie.: "New Post"
+    folder: "site/content/pilot" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Imię i nazwisko", name: "title", widget: "string"}
+      - {label: "Kraj", name: "country", widget: "string", required: false}
+      - {label: "Klub", name: "club", widget: "string", required: false}
+      - {label: "Balon", name: "balloon_name", widget: "string", required: false}
+      - {label: "Rejestracja balonu", name: "balloon_registration", widget: "string", required: false}
+      - {label: "Zdjęcie pilota", name: "pilot_photo", widget: "image", required: false}
+      - {label: "Zdjęcie balonu", name: "balloon_photo", widget: "image", required: false}
+      - {label: "Opis", name: "description", widget: "markdown", required: false}
+  - name: "sponsor" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Sponsorzy" # Used in the UI, ie.: "New Post"
+    folder: "site/content/sponsor" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Nazwa", name: "title", widget: "string"}
+      - {label: "Logo", name: "logo", widget: "image", required: false}
+      - {label: "Link", name: "link", widget: "string", required: false}
+      - {label: "Opis", name: "description", widget: "markdown", required: false}
