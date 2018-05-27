@@ -4,6 +4,7 @@ title: Fiesta Balonowa
 subtitle: Podniebne widowisko
 contents:
   - background_color: has-background-light has-text-dark
+    id: informacje
     left_column: '**LEWA KOLUMNA**'
     right_column: '# _PRAWA KOLUMNA_'
   - background_color: is-info
@@ -16,7 +17,6 @@ contents:
 
       </center>
     right_column: ''
-    section-title: Tytuł sekcji
   - background_color: has-background-success has-text-white
     left_column: |-
       # LEWA KOLUMNA
@@ -34,6 +34,5 @@ contents:
       fg
 
       hfg
-    section-title: Tytuł 2
 ---
 
