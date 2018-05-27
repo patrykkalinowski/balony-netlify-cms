@@ -1,5 +1,5 @@
 ---
-image: ''
+image: /img/header.jpg
 title: Fiesta Balonowa Wieruszów – Kobyla Góra 2018
 subtitle: 8-10.06.2018
 contents:
