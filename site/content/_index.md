@@ -10,7 +10,7 @@ contents:
     left_column: LEWA KOLUMNA
     right_column: PRAWA KOLUMNA
     section-title: Tytuł sekcji
-  - background_color: is-danger
+  - background_color: has-background-success has-text-white
     left_column: LEWA KOLUMNA
     section-title: Tytuł 2
 ---
