@@ -1,7 +1,7 @@
 import React from "react";
 import format from "date-fns/format";
 
-import header-image from "./components/header-image";
+import header from "./components/header";
 
 export default class PostPreview extends React.Component {
   render() {
@@ -14,7 +14,7 @@ export default class PostPreview extends React.Component {
     }
 
     return <div>
-        <header-image image={image} title={entry.getIn(["data", "title"])} subtitle={entry.getIn(["data", "subtitle"])}/>
+        <header image={image} title={entry.getIn(["data", "title"])} subtitle={entry.getIn(["data", "subtitle"])}/>
 
         <div className="bg-grey-1 pv4">
           <div className="flex-l mhn1-l ph3 center mw7">

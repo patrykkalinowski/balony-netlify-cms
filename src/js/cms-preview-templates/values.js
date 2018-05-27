@@ -1,7 +1,7 @@
 import React from "react";
 import { List } from 'immutable';
 
-import header-image from "./components/header-image";
+import header from "./components/header";
 
 const MediaBlock = ({heading, text, imageUrl, reverse}) => {
   const imageContainerClassName = reverse
@@ -33,7 +33,7 @@ export default class ValuesPreview extends React.Component {
     const values = entryValues ? entryValues.toJS() : [];
     
     return <div>
-      <header-image image={image} title={entry.getIn(["data", "title"])} />
+      <header image={image} title={entry.getIn(["data", "title"])} />
       <div className="bg-off-white pv4">
         <div className="mw7 center ph3 pt4">
           {values.map(({text, heading, imageUrl}, i) =>

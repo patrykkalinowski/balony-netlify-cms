@@ -1,6 +1,6 @@
 ---
 title: "Values"
-image: /img/about-header-image.jpg
+image: /img/about-header.jpg
 values:
   - heading: "Shade-grown coffee"
     text: >
