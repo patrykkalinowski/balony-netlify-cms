@@ -5,44 +5,15 @@ subtitle: Podniebne widowisko
 contents:
   - background_color: has-background-light has-text-dark
     id: informacje
-    left_column: '**LEWA KOLUMNA**'
-    right_column: '# _PRAWA KOLUMNA_'
+    left_column: ''
+    right_column: '#'
   - background_color: is-info
-    left_column: |-
-      LEWA KOLUMNA
-
-      <center>
-
-      ![null](/img/logo.png)
-
-      </center>
+    left_column: ''
     right_column: ''
   - background_color: has-background-success has-text-white
-    left_column: |-
-      # LEWA KOLUMNA
-
-      rgdshrtdhy
-
-      tekst lewej kolumny
-
-      fsgdgdg
-
-      dfh
-
-      gh
-
-      fg
-
-      hfg
+    left_column: '#'
   - background_color: has-background-danger has-text-white
     id: kontakt
-    left_column: |-
-      ## Kontakt
-
-      dane kontaktowe
-
-      bbanaszuk@wp.pl
-
-      [bbanaszuk@wp.pl](bbanaszuk@wp.pl)
+    left_column: '## Kontakt'
 ---
 
