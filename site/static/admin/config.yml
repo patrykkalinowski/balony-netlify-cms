@@ -32,13 +32,14 @@ collections: # A list of collections the CMS should be able to edit
                 name: background_color,
                 widget: select,
                 options:
-                [{ label: "Brak", value: "" },
-                { label: "Niebieski", value: "has-background-info has-text-white" },
-                { label: "Żółty", value: "has-background-warning has-text-dark" },
-                { label: "Zielony", value: "has-background-success has-text-white" },
-                { label: "Czerwony", value: "has-background-danger has-text-white" },
-                { label: "Szary", value: "has-background-light has-text-dark" },
-                { label: "Ciemny", value: "has-background-dark has-text-white" }]
+                [
+                  { label: "Niebieski", value: "has-background-info has-text-white" },
+                  { label: "Żółty", value: "has-background-warning has-text-dark" },
+                  { label: "Zielony", value: "has-background-success has-text-white" },
+                  { label: "Czerwony", value: "has-background-danger has-text-white" },
+                  { label: "Szary", value: "has-background-light has-text-dark" },
+                  { label: "Ciemny", value: "has-background-dark has-text-white" }
+                ]
                 }
               - label: Lewa kolumna
                 name: left_column
