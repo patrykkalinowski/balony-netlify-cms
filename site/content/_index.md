@@ -39,8 +39,10 @@ contents:
     left_column: |-
       ## Kontakt
 
-
-
       dane kontaktowe
+
+      bbanaszuk@wp.pl
+
+      [bbanaszuk@wp.pl](bbanaszuk@wp.pl)
 ---
 
