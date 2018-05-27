@@ -1,5 +1,5 @@
 ---
-image: /img/plakat.jpg
+image: ''
 title: Fiesta Balonowa
 subtitle: Podniebne widowisko
 contents:
