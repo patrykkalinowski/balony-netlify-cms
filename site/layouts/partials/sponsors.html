@@ -3,9 +3,12 @@
     <h2>Sponsorzy</h2>
     <div class="columns is-multiline">
       {{ range where .Data.Pages "Type" "sponsor" }}
-      <div class="column has-text-centered">
-        <h3>{{ .Title }}</h3>
-      </div>
+      <a href="{{ .Params.link }}">
+        <div class="column has-text-centered">
+          <img src="{{ .Params.logo }}" style="max-height: 200px;">
+          <h4>{{ .Title }}</h4>
+        </div>
+      </a>
       {{ end }}
     </div>
   </div>
