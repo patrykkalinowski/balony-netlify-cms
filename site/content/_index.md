@@ -12,25 +12,24 @@ contents:
       także obejrzeć z balonu panoramę miasta. 
 
 
-
-
       ## W programie:
 
 
+      **Piątek 8.06.2018**
 
 
-      **Piątek 8.06.2018     **
-
-
-      * \- 17.00 - oficjalne otwarcie fiesty – prezentacja załóg, organizatorów,
+      \- 17.00 - oficjalne otwarcie fiesty – prezentacja załóg, organizatorów,
       spotkanie z mediami - Hotel Wagabunda Kobyla Góra
 
-      * \- 18.00- 20.00 - loty w okolicy Kobylej Góry 
 
-      * \- ok. godz. 20.30-21.00 - pokaz nocny przy chacie nad Zalewem (łąka
-      przy plaży, Kobyla Góra)       
+      \- 18.00- 20.00 - loty w okolicy Kobylej Góry 
 
-      * \- pokaz ognia w wykonaniu grupy z Wieruszowa
+
+      \- ok. godz. 20.30-21.00 - pokaz nocny przy chacie nad Zalewem (łąka przy
+      plaży, Kobyla Góra)       
+
+
+      \- pokaz ognia w wykonaniu grupy z Wieruszowa
     right_column: >-
       **Sobota:**
 
@@ -76,7 +75,7 @@ contents:
 
       W tych dniach niebo nad Kobylą Górą i Wieruszowem przepełnione będzie
       pysznymi kolorami! ;)
-  - background_color: has-background-dark has-text-white
+  - background_color: has-background-primary has-text-white
     left_column: >-
       Starty balonów – procedura stawiania tych wyjątkowych statków
       powietrznych, dmuchania i grzania powłoki jest bardzo widowiskowa, do tego
