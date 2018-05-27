@@ -5,26 +5,111 @@ subtitle: 8-10.06.2018
 contents:
   - background_color: ''
     id: informacje
-    left_column: "## Program:\n\n\n\n**Piątek 8.06.2018**\n\n* Przyjazd ekip: godz. 14-16 zakwaterowanie max 40 osób hotel Wagbunda – obiad ( gm. Kob.Gór)\n* 17.00 Oficjalne otwarcie fiesty – prezentacja załóg, sędziów, organizatorów spotkanie z mediami Hotel Wagabunda (GOSiT – Gm. Kob.Góra)\n* 18.30- 20.00 Loty nad Kobylą Górą (sędziowie i ekipy startujące)\n* 20.30 Stawianie balonów przy chacie nad Zalewem (sędziowie i ekipy startujące)\n* Pokaz ognia ( Biblioteka Wieruszów)\n* Ok. 22.00 kolacja w hotelu ( gm. Kob.Gór)\n* Zapewniamy tankowanie gazu w godz. 16.00-22.00 (ale na stacji w Wieruszowie, konieczne przejściówki)\n\n**Sobota:**\n\n* 4.30 Kawa + słodka bułka w hotelu ( gm. Kob.Gór)\n* 4.45 Wyjazd ekip do Wieruszowa(sędziowie i ekipy startujące)\n* 5.30 Odprawa załóg (sędziowie i ekipy startujące)\n* 6-8.00 Loty nad Wieruszowem (sędziowie i ekipy startujące)\n* 8-9 tankowanie załóg (Gmina Wieruszów)\n* 9.30 Wyjazd busem do Kobylej Góry (GOSiT)\n* 10.00 Śniadanie hotel ( gm. Kob.Gór)\n* 11-16 Czas wolny  dla załóg : ew. rowerki nad zalewem\n* 16.30 Wyjazd do Wieruszowa BUS(GOSiT)\n* 17.30 Odprawa załóg (sędziowie i ekipy startujące)\n* 18.30 -20.00 Loty balonów (sędziowie i ekipy startujące)\n* 20.00 Tankowanie (Wieruszów)\n* 20.30 Zbiórka załóg na rynku(sędziowie i ekipy startujące)\n* 20.45 Uroczyste podsumowanie zawodów wręczenie nagród i dyplomów GOSiT – Gm. Kob.Góra)\n* Pokaz ognia Biblioteka\n* 21.15 Przejazd na stadion GOSiT (GOSiT)\n* 21.30 Pokaz balonów na stadionie (GOSiT)\n* 22.30 Uroczysta kolacja WDK Wieruszów(Gmina Wieruszów)  \n* Powrót załóg do hotelu \n\n**Niedziela**\n\nDzień awaryjny w razie odwołania lotów z piątku lub soboty, postawienie balonu dla dzieci lub sponsorów wg. Indywidualnych uzgodnień \Ltankowanie - Wieruszów\n\nŚniadanie i obiad Gm. Kob.Góra"
-    right_column: |-
-      ## Organizatorzy:
+    left_column: >-
+      W drugi weekend czerwca zapraszamy Wszystkich na wyjątkowe wydarzenie
+      jakim będzie Fiesta Balonowa - Wieruszów / Kobyla Góra. Podczas imprezy
+      będziecie mogli podziwiać widowiskowe starty i malownicze loty balonów a
+      także obejrzeć z balonu panoramę miasta. 
 
 
 
-      Gmina Wieruszów 
 
-      Gmina Kobyla Góra 
+      ## W programie:
 
-      GOSiT Wieruszów
 
-      Biblioteka Wieruszów
-  - background_color: is-info
-    left_column: ''
+
+
+      **Piątek 8.06.2018     **
+
+
+      * \- 17.00 - oficjalne otwarcie fiesty – prezentacja załóg, organizatorów,
+      spotkanie z mediami - Hotel Wagabunda Kobyla Góra
+
+      * \- 18.00- 20.00 - loty w okolicy Kobylej Góry 
+
+      * \- ok. godz. 20.30-21.00 - pokaz nocny przy chacie nad Zalewem (łąka
+      przy plaży, Kobyla Góra)       
+
+      * \- pokaz ognia w wykonaniu grupy z Wieruszowa
+    right_column: >-
+      **Sobota:**
+
+
+      \- 5.30 - briefing w Wieruszowie        
+
+
+      \- 6-8.00 - loty w okolicy Wieruszowa
+
+
+      \- 17.00 - briefing w Wieruszowie
+
+
+      \- 18.00 -20.00 loty w okolicy Wieruszowa
+
+
+      \- 20.45 - uroczyste podsumowanie zawodów, wręczenie nagród na Rynku w
+      Wieruszowie
+
+
+      \- 20.55 - pokaz ognia w wykonaniu grupy z Wieruszowa
+
+
+      \- 21.15 - przejazd na stadion GOSiT
+
+
+      \- 21.30 - pokaz balonów na stadionie (GOSiT)
+
+
+
+
+      **Niedziela**
+
+
+      Dzień awaryjny w razie odwołania lotów z piątku lub soboty
+
+
+      \* godziny i miejsca startów zależne są od warunków atmosferycznych i mogą
+      ulec zmianie.
+
+
+
+
+      W tych dniach niebo nad Kobylą Górą i Wieruszowem przepełnione będzie
+      pysznymi kolorami! ;)
+  - background_color: has-background-dark has-text-white
+    left_column: >-
+      Starty balonów – procedura stawiania tych wyjątkowych statków
+      powietrznych, dmuchania i grzania powłoki jest bardzo widowiskowa, do tego
+      planowane są w piątek i sobotę pokazy nocne, tzw. Night Glow – gdzie z
+      otwartych palników ciemność rozjaśnią kilkumetrowe słupy ognia a
+      towarzyszyć im będzie muzyka. Pokaz nocny piątkowy - odbędzie się przy
+      przy plaży w Kobylej Górze. W sobotę zaś zapraszamy na Rynek a później na
+      stadion w Wieruszowie.
+
+
+
+
+      Starty balonów i naloty na krzyż odbywać się będą na terenie Wieruszowa i
+      Kobylej Góry ale przy dobrych wiatrach - balony można będzie zobaczyć w
+      promieniu 40 km, zapewne i w okolicy Kępna. W zawodach uczestniczyć będzie
+      7-10 balonów na ogrzane powietrze.
+
+
+
+
+      Wśród konkurencji balonowych mają się odbyć m.in. pogoń za lisem i tzw.
+      krzyż. Impreza ma charakter fiestowy, konkurencje będą odbywały się na
+      oczach widzów.
     right_column: ''
   - background_color: has-background-success has-text-white
-    left_column: '#'
-  - background_color: has-background-danger has-text-white
     id: kontakt
-    left_column: '## Kontakt'
+    left_column: >-
+      ## Kontakt
+
+
+
+
+      Kontakt dla mediów: Beata Banaszuk, tel: 605 322 331‬, email:
+      bbanasz@wp.pl
 ---
 
