@@ -34,5 +34,8 @@ contents:
       fg
 
       hfg
+contact:
+  - content: KONTAKT bbanaszuk@wp.pl
+    title: has-background-success has-text-white
 ---
 
