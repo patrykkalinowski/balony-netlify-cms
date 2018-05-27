@@ -1,0 +1,24 @@
+<section class="section">
+  <div class="columns">
+    <div class="column has-text-centered">
+      <p class="is-size-3">Jak trafić?</p>
+      <div id="map" style="height: 400px; width: 100%;"></div>
+      <script>
+        function initMap() {
+          var targetLocation = { lat: 51.299815, lng: 18.153600 };
+          var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 10,
+            center: targetLocation
+          });
+          var marker = new google.maps.Marker({
+            position: targetLocation,
+            map: map
+          });
+        }
+      </script>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDg5-xaX2hVK_qPu2OIxwgzNZBt4tTpVk4&callback=initMap">
+      </script>
+    </div>
+  </div>
+</section>
+
