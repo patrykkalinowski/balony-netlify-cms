@@ -10,7 +10,11 @@ contents:
     left_column: |-
       LEWA KOLUMNA
 
+      <center>
+
       ![null](/img/logo.png)
+
+      </center>
     right_column: ''
     section-title: Tytuł sekcji
   - background_color: has-background-success has-text-white
