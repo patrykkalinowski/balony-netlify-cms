@@ -34,8 +34,13 @@ contents:
       fg
 
       hfg
-  - background_color: has-background-success has-text-white
+  - background_color: has-background-danger has-text-white
     id: kontakt
-    left_column: dane kontaktowe
+    left_column: |-
+      ## Kontakt
+
+
+
+      dane kontaktowe
 ---
 
