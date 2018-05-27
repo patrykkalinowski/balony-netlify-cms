@@ -3,12 +3,12 @@
       <div class="columns">
         <div class="column">
           <div class="content">
-          {{ .left_column }}
+          {{ .left_column | markdownify }}
           </div>
         </div>
         {{ if .right_column }}
           <div class="column">
-            {{ .right_column }}
+            {{ .right_column | markdownify }}
           </div>
         {{ end }}
       </div>
