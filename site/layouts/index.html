@@ -4,17 +4,10 @@
 
 {{ partial "title-section" (dict "Title" .Title "Subtitle" .Params.subtitle) }}
 
-{{ partial "pilots" .Params.pilot }}
-
 {{ partial "contents" .Params }}
 
+{{ partial "pilots" (dict "Pilots" .Pages ) }}
 
-{{ partial "short-text" .Params.blurb}}
-
-{{ partial "2-up" .Params }}
-
-{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
-
-{{ partial "blog" . }}
+{{ partial "sponsors" (dict "Sponsors" .Pages "Section" "sponsor" ) }}
 
 {{ end }}
