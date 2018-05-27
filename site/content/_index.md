@@ -3,11 +3,12 @@ image: /img/header.jpg
 title: Fiesta Balonowa
 subtitle: Podniebne widowisko
 contents:
-  - background-color: blue
+  - background_color: is-info
     left_column: LEWA KOLUMNA
     right_column: PRAWA KOLUMNA
     section-title: Tytuł sekcji
-  - left_column: LEWA KOLUMNA
+  - background_color: is-danger
+    left_column: LEWA KOLUMNA
     section-title: Tytuł 2
 ---
 
