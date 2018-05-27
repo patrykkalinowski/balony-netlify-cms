@@ -1,6 +1,7 @@
 <section id="sponsorzy" class="section">
+  <h2 class="is-2">Sponsorzy</h2>
   <div class="columns is-multiline">
-    {{ range .sponsors }}
+    {{ range where .Data.Pages "Type" "sponsor" }}
     <div class="column is-3">
       <img src="{{ .Title }} ">
       test
