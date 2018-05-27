@@ -9,6 +9,8 @@ contents:
     right_column: |-
       ## Organizatorzy:
 
+
+
       Gmina Wieruszów 
 
       Gmina Kobyla Góra 
