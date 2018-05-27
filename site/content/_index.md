@@ -71,8 +71,6 @@ contents:
       ulec zmianie.
 
 
-
-
       W tych dniach niebo nad Kobylą Górą i Wieruszowem przepełnione będzie
       pysznymi kolorami! ;)
   - background_color: has-background-info has-text-white
