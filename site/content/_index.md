@@ -1,5 +1,5 @@
 ---
-title: "Fiesta Balonowa"
+title: Fiesta Balonowa
 subtitle: Podniebne widowisko
 image: /img/header.jpg
 blurb:

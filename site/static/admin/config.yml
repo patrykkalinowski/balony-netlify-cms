@@ -15,38 +15,46 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Zdjęcie w nagłówku, name: image, widget: image}
           - {label: Tytuł, name: title, widget: string}
           - {label: Podtytuł, name: subtitle, widget: string}
-          - {label: "Tło tytułu",
-              name: "title-background",
-              widget: "select",
-              options:
-                [{ label: "Niebieski", value: "blue" },
-                { label: "Żółty", value: "yellow" },
-                { label: "Zielony", value: "green" }]
-              }
+          # - {label: "Tło tytułu",
+          #     name: "title-background",
+          #     widget: "select",
+          #     options:
+          #       [{ label: "Niebieski", value: "blue" },
+          #       { label: "Żółty", value: "yellow" },
+          #       { label: "Zielony", value: "green" }]
+          #     }
           - label: Treści
-            name: content_entries
+            name: contents
             widget: list
             fields:
+              - {label: Tytuł sekcji, name: section-title, widget: string}
+              - {label: Tło,
+                name: background-color,
+                widget: select,
+                options:
+                [{ label: "Brak", value: "" },
+                { label: "Niebieski", value: "blue" },
+                { label: "Żółty", value: "yellow" },
+                { label: "Zielony", value: "green" }]
+                }
               - label: Lewa kolumna
                 name: left_column
                 widget: text
               - label: Prawa kolumna
                 name: right_column
                 widget: text
-              - {label: Zdjęcie w nagłówku, name: image, widget: image}
-              - {label: Tytuł, name: title, widget: string}
-          - {label: "Blurb", name: blurb, widget: object, fields: [
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: "text"}]}
-          - {label: "Intro", name: intro, widget: object, fields: [
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: "text"}]}
-          - {label: "Products", name: products, widget: list, fields: [
-              {label: "Image", name: "image", widget: "image"},
-              {label: "Text", name: "text", widget: "text"}]}
-          - {label: "Values", name: "values", widget: "object", fields: [
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: "text"}]}
+          # - {label: "Blurb", name: blurb, widget: object, fields: [
+          #     {label: "Heading", name: "heading", widget: string},
+          #     {label: "Text", name: "text", widget: "text"}]}
+          # - {label: "Intro", name: intro, widget: object, fields: [
+          #     {label: "Heading", name: "heading", widget: string},
+          #     {label: "Text", name: "text", widget: "text"}]}
+          # - {label: "Products", name: products, widget: list, fields: [
+          #     {label: "Image", name: "image", widget: "image"},
+          #     {label: "Text", name: "text", widget: "text"}]}
+          # - {label: "Values", name: "values", widget: "object", fields: [
+          #     {label: "Heading", name: "heading", widget: string},
+          #     {label: "Text", name: "text", widget: "text"}]}
       - file: "site/content/contact/_index.md"
         label: "Kontakt"
         name: "kontakt"
@@ -90,7 +98,7 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Heading, name: heading, widget: string}
               - {label: Text, name: text, widget: text}
               - {label: Image, name: imageUrl, widget: image}
-  - name: "pilot" # Used in routes, ie.: /admin/collections/:slug/edit
+  - name: "pilots" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Piloci" # Used in the UI, ie.: "New Post"
     folder: "site/content/pilot" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -103,7 +111,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Zdjęcie pilota", name: "pilot_photo", widget: "image", required: false}
       - {label: "Zdjęcie balonu", name: "balloon_photo", widget: "image", required: false}
       - {label: "Opis", name: "description", widget: "markdown", required: false}
-  - name: "sponsor" # Used in routes, ie.: /admin/collections/:slug/edit
+  - name: "sponsors" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Sponsorzy" # Used in the UI, ie.: "New Post"
     folder: "site/content/sponsor" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection

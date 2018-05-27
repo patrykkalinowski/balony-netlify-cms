@@ -1,0 +1,12 @@
+<section id="content-entries" class="section">
+  <div class="columns is-multiline">
+    {{ .File }}
+    {{ range .contents }}
+    <div class="column is-3">
+      <img src="{{ .Title }} ">
+      test
+    </div>
+    {{ end }}
+  </div>
+
+</section>
