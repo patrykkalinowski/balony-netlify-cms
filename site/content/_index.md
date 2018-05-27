@@ -14,9 +14,9 @@ contents:
     left_column: |-
       # LEWA KOLUMNA
 
+      rgdshrtdhy
+
       tekst lewej kolumny
-
-
 
       fsgdgdg
 
