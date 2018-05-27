@@ -1,6 +1,6 @@
 import React from "react";
 
-export default class Jumbotron extends React.Component {
+export default class header-image extends React.Component {
   render() {
     const {image, title, subtitle} = this.props;
     return <div>

@@ -1,7 +1,7 @@
 import React from "react";
 import format from "date-fns/format";
 
-import Jumbotron from "./components/jumbotron";
+import header-image from "./components/header-image";
 
 export default class PostPreview extends React.Component {
   render() {
@@ -14,7 +14,7 @@ export default class PostPreview extends React.Component {
     }
 
     return <div>
-      <Jumbotron image={image} title={entry.getIn(["data", "title"])} />
+      <header-image image={image} title={entry.getIn(["data", "title"])} />
 
       <div className="bg-off-white pv4">
         <div className="ph3 mw7 center">
