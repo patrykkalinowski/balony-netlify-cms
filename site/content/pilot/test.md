@@ -1,4 +1,4 @@
 ---
-name: Test 1
+title: test
 ---
 
